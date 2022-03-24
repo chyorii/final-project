@@ -1,0 +1,55 @@
+
+#BeHappyCover {
+    width: 100%;
+    margin: 0;
+}
+nav {
+    margin: 0;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0;
+    background-color: #8C0343;
+}
+li {
+
+ 
+    
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+}
+
+li > a {
+    color: white;
+    display: blocks;
+}
+body {
+    background-color: #8C3555;
+}
+
+.left-side {
+    float: left;
+    width: 30%;
+    text-align: justify;
+    margin: 20px;
+    grid-template-columns: auto;
+}
+
+p {
+    display: table-row;
+}
+
+footer {
+    background-color: rgba(143, 19, 61, 0.699);
+
+}
+
+footer > img {
+    padding-right: 10px;
+}
+
+.lastlogo {
+    padding-right: 120px;
+}
