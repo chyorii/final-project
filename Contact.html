@@ -12,7 +12,7 @@
         <a href="https://beenaturalhoney.com/"
           ><img
             id="BeHappyCover"
-            src="Images/cover.png"
+            src="Images/cover.jpeg"
             alt="BeeHappy Logo"
         /></a>
       </header>
@@ -24,5 +24,31 @@
           <li class="navlist"><a href="Contact.html">Contact</a></li>
         </ul>
       </nav>
+
+
+    <form name="contact-form" action="https://www.google.com">
+      <h3>Contact Us!</h3>
+      <input type="text" name="Name" id="name" placeholder="First and Last Name">
+      <input type="text" name="phone_number" id="phone" placeholder="Phone Number">
+      <input type="text" name="email" id="email" placeholder="Email">
+      How did you hear about us?
+      <select name="referral" id="referral">
+          <option value="farmers_market">Farmer's Market</option>
+          <option value="website">Website</option>
+          <option value="employee">Bee Happy Employee</option>
+          <option value="Other"></option>
+      </select>
+
+      <div>
+          
+        Flavors interested in: 
+          <label><input type="checkbox" name="flavors" value="plain">Plain</label>
+          <label><input type="checkbox" name="flavors" value="lav">Lavender</label>
+          <label><input type="checkbox" name="flavors" value="spicy">Cayenne</label>
+          <label><input type="checkbox" name="flavors" value="chocolate">Maple<label>
+         
+      </div>
+
+      <input class="button" type="submit" value="Give Me Honey!">
 </body>
 </html>

@@ -3,7 +3,7 @@
 }
 
 #BeHappyCover {
-    width: 100%;
+    width:100%;
     margin: 0;
 }
 
@@ -52,4 +52,26 @@ footer > img {
 
 .lastlogo {
     padding-right: 120px;
+}
+
+form {
+    border: 1px solid black;
+    background-color: dimgray;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border: 3px solid green;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    width: 100%;
 }
