@@ -56,7 +56,8 @@ footer > img {
 
 form {
     border: 1px solid black;
-    background-color: dimgray;
+    background-color: rgb(221, 180, 103);
+    opacity: 0.9;
     padding: 20px;
     border-radius: 20px;
     width: 100%;
@@ -67,11 +68,16 @@ form {
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-    border: 3px solid green;
+    border: 3px solid rgb(37, 5, 23);
     padding: 10px;
     display: block;
     border-radius: 10px;
     margin: 10px 0;
     font-size: 20px;
     width: 100%;
+}
+
+
+footer{
+    color: white;
 }
